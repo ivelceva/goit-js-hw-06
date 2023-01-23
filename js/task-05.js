@@ -9,8 +9,10 @@ function updateInput() {
     
     output.textContent = name;
     
+  } else {
+    output.textContent = "Anonymous";
   }
-  name = "Anonymous";
+  
 };
 
 
